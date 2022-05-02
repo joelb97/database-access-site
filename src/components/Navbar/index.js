@@ -16,7 +16,7 @@ const Navbar = () => {
                     <img src={databaseIcon}  className={'icon'}></img>
                     Population Database
                 </NavLink>
-                <a href='https://github.com' className="github">
+                <a href='https://github.com/joelb97/database-access-site' className="github">
                     <img src={githubIcon}  className={'icon'}></img>
                 </a>
             </NavMenu>
