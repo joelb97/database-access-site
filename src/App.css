@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap');
+
+.App {
+  text-align: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.header {
+  color: black;
+  float: left;
+  margin-left: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header-container {
+  width: 100%;
+}
+
+.dropzone {
+  padding: 10px;
+  width: 400px;
+  height: 480px;
+  border: 2px dashed lightgray;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropzone-text {
+  color: #8E8E8E;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.highlighted {
+  background-color: #F3FFF4;
+  border-color: #69BA71;
+}
+
+.highlighted-text {
+  color: #69BA71;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.icon-large {
+  height: 48px;
+  width: 48px;
+  opacity: 40%;
+}
+
+.github {
+  position: fixed;
+  top: 30px;
+  right: 42px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.section {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitButton {
+  width: 220px;
+  height: 60px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: #4EA8DB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  margin: 20px;
+
+}
+
+div.submitButton:hover {
+  cursor: pointer;
+}
+
+.col {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorText {
+  font-style: italic;
+  color: #BE2020;
+}
